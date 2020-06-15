@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="1289758b-7273-438b-a0cb-c94a964b0e58" ItemType="Solution" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="2" LastUpdateBy="dp" LastUpdate="202006151321" />
+<Solution AlmType="QC" Guid="1289758b-7273-438b-a0cb-c94a964b0e58" Name="MyDemoSolution" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="Facbook" CoreGUID="00000000-0000-0000-0000-000000000000" Guid="294f20a5-c084-4ae6-b83b-5fd568021153" GUID="00000000-0000-0000-0000-000000000000" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="1a5e4e6f-a6c7-41c3-9781-e10de4a6f928" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedDataRepositoryMethod="TextFile" Seq="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="4f2ad982-ca8e-4f73-ad17-22bf19b62d31" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+</HTMLReportsConfigurationSetList>
+</Solution></GingerRepositoryItem>

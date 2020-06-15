@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="98a70536-ecd5-449d-a90d-3ef5e92b2a70" ItemType="ProjEnvironment" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="1" LastUpdateBy="dp" LastUpdate="202006151321" />
+<ProjEnvironment Guid="98a70536-ecd5-449d-a90d-3ef5e92b2a70" Name="Default" ParentGuid="00000000-0000-0000-0000-000000000000">
+<Applications>
+<EnvApplication Active="True" Guid="4e8b9d23-0d3e-485d-a4c8-ee2465a7fa9c" Name="Facbook" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>

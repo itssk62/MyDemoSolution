@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="28cf7820-6706-4592-9a90-94627d206672" ItemType="BusinessFlow" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="4" LastUpdateBy="dp" LastUpdate="202006151336" />
+<BusinessFlow Guid="28cf7820-6706-4592-9a90-94627d206672" Name="login to fb" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Facbook">
+<Acts>
+<ActBrowserElement Active="True" Description="Browser Action" Guid="11e9bae4-74e9-401b-88ed-c2ed9235042f" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="9626dc64-4f8b-487a-91ed-59336ea39ac4" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="0ac6a52e-6b7d-44f0-a86b-093d9df29c90" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="www.facebook.com" />
+<ActInputValue Guid="bdebae26-33fc-4c7b-af9c-338e5029a6bb" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="e353253f-b1cd-4eb3-980e-04131f40d0e8" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="3b9466e6-bb51-48d8-b5ed-460eeaae918e" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="3eaaa36e-0cf1-44a2-a990-e39366e51659" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="7af1143a-9ebf-4bef-ac13-8ad2d7dce296" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ActivityName="Activity 1" Guid="a48c9bcb-93cb-4b55-abb3-2900a722a080" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="Facbook" Guid="950e83e2-5aa2-488d-a3b3-17fd8ae17555" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
