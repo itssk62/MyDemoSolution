@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="28cf7820-6706-4592-9a90-94627d206672" ItemType="BusinessFlow" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="4" LastUpdateBy="dp" LastUpdate="202006151336" />
+<GingerRepositoryItem><Header ItemGuid="28cf7820-6706-4592-9a90-94627d206672" ItemType="BusinessFlow" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="8" LastUpdateBy="dp" LastUpdate="202006151514" />
 <BusinessFlow Guid="28cf7820-6706-4592-9a90-94627d206672" Name="login to fb" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Facbook">
@@ -14,6 +14,8 @@
 <ActInputValue Guid="3eaaa36e-0cf1-44a2-a990-e39366e51659" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActBrowserElement>
+<ActScreenShot Active="True" Description="Screen Shot Action" Guid="45045116-10c5-46cd-8e0d-d6490598963e" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActPWL Active="True" Description="Two web elements distances" Guid="384a998e-088c-46e0-9d87-f1f0defdb610" MaxNumberOfRetries="2" OLocateBy="NA" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" PWLAction="GetVDistanceTop2Top" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
 </Acts>
 </Activity>
 </Activities>
@@ -21,7 +23,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="7af1143a-9ebf-4bef-ac13-8ad2d7dce296" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ActivityName="Activity 1" Guid="a48c9bcb-93cb-4b55-abb3-2900a722a080" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ActivityName="Activity 1" Guid="2f9aa99b-0bd8-4ea3-95eb-51a19fa08f59" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
