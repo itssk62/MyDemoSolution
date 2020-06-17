@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="21f8bec9-7052-4132-bab1-8e3cad1cfdb0" ItemType="RunSetConfig" CreatedBy="dp" Created="202006161323" GingerVersion="3.5.0.0" Version="4" LastUpdateBy="dp" LastUpdate="202006161324" />
+<GingerRepositoryItem><Header ItemGuid="21f8bec9-7052-4132-bab1-8e3cad1cfdb0" ItemType="RunSetConfig" CreatedBy="dp" Created="202006161323" GingerVersion="3.5.0.0" Version="6" LastUpdateBy="dp" LastUpdate="202006171322" />
 <RunSetConfig Guid="21f8bec9-7052-4132-bab1-8e3cad1cfdb0" Name="Demojenkins" ParentGuid="00000000-0000-0000-0000-000000000000">
 <GingerRunners>
 <GingerRunner Guid="c1d54558-54f3-4efc-b80c-2a6baf599ec5" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
 <ApplicationAgents>
-<ApplicationAgent AgentID="7161c6a3-9015-41ee-95f6-3dc1f53b0225" AgentName="Facbook - Agent 1" AppID="294f20a5-c084-4ae6-b83b-5fd568021153" AppName="Facbook" Guid="7a4f8032-b206-45ac-8ee9-a0fe75df43b3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ApplicationAgent AgentID="7161c6a3-9015-41ee-95f6-3dc1f53b0225" AgentName="FacbookIE" AppID="294f20a5-c084-4ae6-b83b-5fd568021153" AppName="Facbook" Guid="754d6c2a-78b9-4b29-b2c6-e6e9f616d15a" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="28cf7820-6706-4592-9a90-94627d206672" BusinessFlowInstanceGuid="85eb8403-1ca9-4ae4-8c2b-84fa8ea50f43" BusinessFlowIsActive="True" BusinessFlowName="login to fb" Guid="e33c0c84-b3b0-4f18-a998-c4495333ece8" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="28cf7820-6706-4592-9a90-94627d206672" BusinessFlowInstanceGuid="85eb8403-1ca9-4ae4-8c2b-84fa8ea50f43" BusinessFlowIsActive="True" BusinessFlowName="login to fb" Guid="f4885dff-edae-4d49-ae0a-9fb1425f7156" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>

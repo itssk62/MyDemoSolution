@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="28cf7820-6706-4592-9a90-94627d206672" ItemType="BusinessFlow" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="9" LastUpdateBy="dp" LastUpdate="202006171237" />
+<GingerRepositoryItem><Header ItemGuid="28cf7820-6706-4592-9a90-94627d206672" ItemType="BusinessFlow" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="10" LastUpdateBy="dp" LastUpdate="202006171321" />
 <BusinessFlow Guid="28cf7820-6706-4592-9a90-94627d206672" Name="login to fb" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Login to facebook" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Facbook">
