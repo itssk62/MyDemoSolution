@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="28cf7820-6706-4592-9a90-94627d206672" ItemType="BusinessFlow" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="45" LastUpdateBy="dp" LastUpdate="202006171601" />
+<GingerRepositoryItem><Header ItemGuid="28cf7820-6706-4592-9a90-94627d206672" ItemType="BusinessFlow" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="47" LastUpdateBy="dp" LastUpdate="202006171605" />
 <BusinessFlow Guid="28cf7820-6706-4592-9a90-94627d206672" Name="login to fb" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Login to facebook" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Facbook">
@@ -58,16 +58,6 @@
 <ActInputValue Guid="c4f22336-2d3b-49a6-a248-613ed83908a9" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActUIElement>
-<ActBrowserElement Active="True" Description="Browser Action" Guid="ba3a6c88-83ff-446e-80a2-660f1bffc1de" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
-<InputValues>
-<ActInputValue Guid="ad4270c0-90b8-470a-8c32-2349691e70c8" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Refresh" />
-<ActInputValue Guid="ba6c5403-ef3a-4b7f-85ec-928b4e26b070" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActInputValue Guid="b1e9e4f5-918f-4a7a-a06d-04b83b9bc435" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActInputValue Guid="a0551aac-50c7-423b-8b37-4b50ae508006" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
-<ActInputValue Guid="970e5633-f82b-4335-95b1-149983b62b65" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
-<ActInputValue Guid="80e2f2f3-9e00-4da2-8407-7c7e20edca33" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
-</InputValues>
-</ActBrowserElement>
 </Acts>
 </Activity>
 </Activities>
