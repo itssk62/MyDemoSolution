@@ -1,0 +1,1 @@
+{"Seq":1,"GUID":"1aac201a-3ba8-4d6a-a3c9-94a72771cfde","ActivityName":"Login to facebook","StartTimeStamp":"2020-06-17T13:51:11.8828471Z","EndTimeStamp":"2020-06-17T13:51:26.4701837Z","Elapsed":10044,"RunStatus":"Passed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="28cf7820-6706-4592-9a90-94627d206672" ItemType="BusinessFlow" CreatedBy="dp" Created="202006151321" GingerVersion="3.5.0.0" Version="20" LastUpdateBy="dp" LastUpdate="202006171355" />
+<BusinessFlow Guid="28cf7820-6706-4592-9a90-94627d206672" Name="login to fb" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Login to facebook" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Facbook">
+<Acts>
+<ActBrowserElement Active="True" Description="Browser Action" Guid="11e9bae4-74e9-401b-88ed-c2ed9235042f" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="9626dc64-4f8b-487a-91ed-59336ea39ac4" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="0ac6a52e-6b7d-44f0-a86b-093d9df29c90" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="www.facebook.com" />
+<ActInputValue Guid="bdebae26-33fc-4c7b-af9c-338e5029a6bb" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="e353253f-b1cd-4eb3-980e-04131f40d0e8" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="3b9466e6-bb51-48d8-b5ed-460eeaae918e" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="3eaaa36e-0cf1-44a2-a990-e39366e51659" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="06a40eb5-e983-4c34-9dfc-0c027327a9fa" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="enter details" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="f7ed2ee4-053b-4e4b-ba61-3fd3a6dcb1ed" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Facbook">
+<Acts>
+<ActUIElement Active="True" Description="SetText - email" Guid="cd0ab95e-c510-49cf-be7e-786e6a11ff88" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="2" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="f26270b8-5ed9-4b6a-883e-adcde4cc2f5d" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="a45f4ae0-594c-4d7a-8b5a-87b6fa5a58b9" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="e53c8853-ef66-44c3-b931-402e1369eb02_3cea1bdd-f085-474a-b729-6e38fe3b8a35" />
+<ActInputValue Guid="6d475c60-6d4f-4896-a179-6dad02ba78d3" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="9823095089" />
+<ActInputValue Guid="c38fae3b-41df-4580-b04f-da39824d6508" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
+<ActInputValue Guid="5e9c1eae-dc69-4eb7-b4b1-eb6617738db3" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="71a80717-e1e4-40c6-882e-3d712df5a9d2" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="e05fd825-e8c0-4270-bfec-cd1295eeeaf0" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="b3840fe5-67ca-425e-a989-193188c0ab2e" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="6a6e0655-c725-4865-a07b-ee727229d4be" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="SetText - pass" Guid="d64c27fe-bbd1-42c1-ab0b-fe5a267fa412" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="2ca65788-53fe-45ec-ad6e-d219f700a3c4" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="330eedc1-abf8-4f9a-a061-dd8f5231cc4b" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="e53c8853-ef66-44c3-b931-402e1369eb02_407050d1-ce37-4705-ab8a-8b41dea92027" />
+<ActInputValue Guid="e0c2db45-5cbd-4553-94bc-d4a19758ea77" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="sk164343" />
+<ActInputValue Guid="b4e66d96-b9cd-4901-8b2a-888b0f1ba83a" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
+<ActInputValue Guid="85d09bf2-8426-44d7-9eeb-0dfb5d6c6daf" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="be4f55e1-d88e-44e5-94f5-0851a6aacbb8" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="c1957792-4f17-4135-8229-8ce852aa76b7" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="5ce01655-50f7-46fd-878a-368b076ff043" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="2261e028-8c9c-436e-acd4-e4681b053c96" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Click - login" Guid="e50c526f-a1e0-4c98-bb72-c9dcdb81f53c" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="3" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="32a70cf9-f956-488c-b63b-06c5664dcdee" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="300dfb3d-1200-4178-9784-00b0ada1489b" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="e53c8853-ef66-44c3-b931-402e1369eb02_fd4aec2a-e2fa-42c3-805a-0fb5068915aa" />
+<ActInputValue Guid="86478090-8169-4df9-8e91-4b2bb70672e6" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="4798113a-2dda-4c70-ad24-5afa260ff3b9" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
+<ActInputValue Guid="1c705c22-e00f-4b09-a686-40249b99ab26" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="4bd94d68-c4fb-49de-8b65-ca5a385d716e" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="c7f4c39b-4474-432e-b450-559f42e1b7cd" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="53541f04-8464-4156-aff8-851ddfec9537" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="c4f22336-2d3b-49a6-a248-613ed83908a9" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="7af1143a-9ebf-4bef-ac13-8ad2d7dce296" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1aac201a-3ba8-4d6a-a3c9-94a72771cfde" ActivityName="Login to facebook" Guid="ef1c6ff6-34fe-44d6-88d5-bfb354454875" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f7ed2ee4-053b-4e4b-ba61-3fd3a6dcb1ed" ActivityName="enter details" Guid="b50afe6c-4643-4f73-995c-7af11bf5e992" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="Facbook" Guid="950e83e2-5aa2-488d-a3b3-17fd8ae17555" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

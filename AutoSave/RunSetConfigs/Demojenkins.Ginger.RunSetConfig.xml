@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="21f8bec9-7052-4132-bab1-8e3cad1cfdb0" ItemType="RunSetConfig" CreatedBy="dp" Created="202006161323" GingerVersion="3.5.0.0" Version="14" LastUpdateBy="dp" LastUpdate="202006171358" />
+<GingerRepositoryItem><Header ItemGuid="21f8bec9-7052-4132-bab1-8e3cad1cfdb0" ItemType="RunSetConfig" CreatedBy="dp" Created="202006161323" GingerVersion="3.5.0.0" Version="12" LastUpdateBy="dp" LastUpdate="202006171355" />
 <RunSetConfig Guid="21f8bec9-7052-4132-bab1-8e3cad1cfdb0" Name="Demojenkins" ParentGuid="00000000-0000-0000-0000-000000000000">
 <GingerRunners>
 <GingerRunner Guid="c1d54558-54f3-4efc-b80c-2a6baf599ec5" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
@@ -8,12 +8,13 @@
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="28cf7820-6706-4592-9a90-94627d206672" BusinessFlowInstanceGuid="85eb8403-1ca9-4ae4-8c2b-84fa8ea50f43" BusinessFlowIsActive="True" BusinessFlowName="login to fb" Guid="ffdc883c-86c3-42f1-aa03-16459257902b" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="28cf7820-6706-4592-9a90-94627d206672" BusinessFlowInstanceGuid="85eb8403-1ca9-4ae4-8c2b-84fa8ea50f43" BusinessFlowIsActive="True" BusinessFlowName="login to fb" Guid="879589c2-d35f-4b13-9cc8-1d0220bda4d6" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>
 
 <RunSetActions>
 <RunSetActionHTMLReport Condition="AlwaysRun" Guid="87ee272f-7722-46fd-8438-7fba442eabec" Name="Produce HTML Report" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" />
+<RunSetActionGenerateTestNGReport Condition="AlwaysRun" Guid="78bff190-f39a-49f2-80c6-c31c1413fffe" IsStatusByActivity="True" Name="Produce TestNG Summary Report" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" />
 </RunSetActions>
 </RunSetConfig></GingerRepositoryItem>
