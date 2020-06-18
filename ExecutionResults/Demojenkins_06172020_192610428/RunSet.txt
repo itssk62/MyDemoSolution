@@ -1,1 +1,0 @@
-{"Name":"Demojenkins","StartTimeStamp":"2020-06-17T13:56:10.4287671Z","EndTimeStamp":"2020-06-17T13:56:43.9286888Z","GUID":"21f8bec9-7052-4132-bab1-8e3cad1cfdb0","GingerVersion":"3.5","MachineName":"DP_PC","ExecutedbyUser":"dp","Elapsed":33.4999217}

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="21f8bec9-7052-4132-bab1-8e3cad1cfdb0" ItemType="RunSetConfig" CreatedBy="dp" Created="202006161323" GingerVersion="3.5.0.0" Version="27" LastUpdateBy="dp" LastUpdate="202006171641" />
+<GingerRepositoryItem><Header ItemGuid="21f8bec9-7052-4132-bab1-8e3cad1cfdb0" ItemType="RunSetConfig" CreatedBy="dp" Created="202006161323" GingerVersion="3.5.0.0" Version="35" LastUpdateBy="dp" LastUpdate="202006181505" />
 <RunSetConfig Guid="21f8bec9-7052-4132-bab1-8e3cad1cfdb0" Name="Demojenkins" ParentGuid="00000000-0000-0000-0000-000000000000">
 <GingerRunners>
 <GingerRunner Guid="c1d54558-54f3-4efc-b80c-2a6baf599ec5" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
@@ -8,12 +8,12 @@
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="28cf7820-6706-4592-9a90-94627d206672" BusinessFlowInstanceGuid="85eb8403-1ca9-4ae4-8c2b-84fa8ea50f43" BusinessFlowIsActive="True" BusinessFlowName="login to fb" Guid="c89e70c1-8c28-4e51-b0a9-070fbe9cb939" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="28cf7820-6706-4592-9a90-94627d206672" BusinessFlowInstanceGuid="85eb8403-1ca9-4ae4-8c2b-84fa8ea50f43" BusinessFlowIsActive="True" BusinessFlowName="login to fb" Guid="f08f6ae2-2cbf-4d1b-bc13-b54f7ca01ea8" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>
 
 <RunSetActions>
-<RunSetActionHTMLReport Condition="AlwaysRun" Guid="87ee272f-7722-46fd-8438-7fba442eabec" Name="Produce HTML Report" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" />
+<RunSetActionHTMLReport Condition="AlwaysRun" Guid="87ee272f-7722-46fd-8438-7fba442eabec" HTMLReportFolderName="‪C:\temm" isHTMLReportPermanentFolderNameUsed="True" Name="Produce HTML Report" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" />
 </RunSetActions>
 </RunSetConfig></GingerRepositoryItem>

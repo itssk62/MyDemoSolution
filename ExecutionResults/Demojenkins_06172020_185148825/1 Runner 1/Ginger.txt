@@ -1,1 +1,0 @@
-{"Seq":1,"Name":"Runner 1","GUID":"c1d54558-54f3-4efc-b80c-2a6baf599ec5","EnvironmentName":"Default","StartTimeStamp":"2020-06-17T13:21:48.8591421Z","EndTimeStamp":"2020-06-17T13:22:09.6972061Z","Elapsed":20.819,"ApplicationAgentsMappingList":["FacbookIE_:_Facbook"]}
